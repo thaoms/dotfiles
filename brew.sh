@@ -1,7 +1,7 @@
-# Install command-line tools using Homebrew.
+echo "Installing Homebrew stuff";
 
 # Make sure we’re using the latest Homebrew.
-echo "Updating homebrew..."
+echo "Updating Homebrew..."
 brew update
 
 # Installing bundler...
@@ -35,7 +35,7 @@ brew install git
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # software
-echo "Installing homebrew cask"
+echo "Installing Homebrew cask"
 brew install caskroom/cask/brew-cask
 
 # Install apps to /Applications
@@ -48,7 +48,7 @@ apps=(
   firefox
   iterm2
   transmit
-  sequel-pro.
+  sequel-pro
   vlc
   skype
   dropbox

@@ -1,3 +1,5 @@
+echo "Configuring Mac OSX"
+
 # mac preferences
 
 # Show percentage; Hide remaining battery time
@@ -85,4 +87,4 @@ defaults write com.apple.ActivityMonitor ShowCategory -int 0
 defaults write com.apple.ActivityMonitor SortColumn -string "CPUUsage"
 defaults write com.apple.ActivityMonitor SortDirection -int 0
 
-echo "OSX Hacks Done. Note that some of these changes require a logout/restart to take effect."
+echo "OSX configuration done. Note that some of these changes require a logout/restart to take effect."

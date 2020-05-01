@@ -1,0 +1,9 @@
+[user]
+	name = Thomas Van Kerckvoorde
+	email = thomas.vankerckvoorde@clarabridge.com
+[core]
+	editor = vim
+[color]
+	ui = true
+[core]
+	excludesfile = ~/.gitignore
