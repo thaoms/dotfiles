@@ -1,5 +1,3 @@
-#!/usr/bin/env sh
-
 # Install command-line tools using Homebrew.
 
 # Make sure we’re using the latest Homebrew.
@@ -68,6 +66,7 @@ apps=(
   tuple
   screen
   postman
+  vagrant
 )
 
 brew cask install --appdir="/Applications" ${apps[@]}

@@ -1,5 +1,3 @@
-#!/usr/bin/env sh
-
 echo "Creating an SSH key for you..."
 ssh-keygen -t rsa
 
@@ -19,3 +17,5 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash
 
 sh brew.sh
+
+sh .osx
