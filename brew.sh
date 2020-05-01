@@ -34,6 +34,8 @@ brew install woff2
 echo "Installing Git..."
 brew install git
 
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # software
 echo "Installing homebrew cask"
 brew install caskroom/cask/brew-cask
