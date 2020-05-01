@@ -8,8 +8,8 @@
 echo "Copying configuration files to folders..."
 cp -r .ssh/ "$HOME"/.ssh/
 cp -r git/ "$HOME"
-cp -r .zshrc/ "$HOME"
-cp -r .zlogin/ "$HOME"
+cp .zshrc "$HOME"
+cp .zlogin "$HOME"
 
 echo "Installing xcode-stuff..."
 xcode-select --install
